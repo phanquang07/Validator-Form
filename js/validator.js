@@ -50,6 +50,7 @@ function Validator(options) {
             return values
           }, {})
           options.onSubmit(formValues)
+          alert('Đăng ký thành công')
         }
         // Submit với hành vi mặc định
         else {
